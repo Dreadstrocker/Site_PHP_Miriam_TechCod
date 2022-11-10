@@ -1,0 +1,68 @@
+
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+body{
+    background-image : url("Imagem.jpeg");
+    background-position : 50% 70%;
+    background-repeat : no-repeat;
+    background-size: 1930px 1080px;
+}
+
+image{
+  height : 110%;
+  width : 110%;
+}
+
+input{
+    display : block;
+    height : 55px;
+    width : 400px;
+    margin : 10px;
+    border-radius : 30px;
+    border : 1px solid black;
+    font-size : 16pt;
+    padding : 10px 20px ;
+}
+
+input[name="Enviar"]{
+    width : 440px;
+    font-size : 20pt;
+    color : blue;
+    background-color : antiquewhite;
+    font-family : sans-serif ;
+    font-size-adjust: initial;
+    border : none;
+    cursor : pointer;
+}
+/*h1{
+    color : aquamarine;
+} */
+/* ou */
+
+div#corpo_form h1{
+
+padding : 20px;
+color : aquamarine;
+margin-top : 150px;
+margin-left : 158px;
+margin-bottom : 0px;
+}
+
+div#corpo_form{
+   
+   /*background-color : red;*/
+   width : 420px;
+   margin : 150px auto 0px auto; 
+   
+}
+
+div#form_cad{
+   
+    /*background-color : red;*/
+    width : 420px;
+    margin : 130px auto 0px auto; 
+    
+ }
